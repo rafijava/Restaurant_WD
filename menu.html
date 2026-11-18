@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Menu</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<link rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+
+</head>
+
+<body onload="showDateTime()">
+
+<!-- Header Top -->
+
+<div class="top-header text-center">
+Email: restaurant@gmail.com | Phone: 01700000000 |
+<a href="reservation.html">Reservation</a> |
+<a href="login.html">Login</a> |
+<a href="signup.html">Register</a>
+
+<span id="datetime" class="float-end"></span>
+</div>
+
+<!-- Navigation -->
+
+<nav class="navbar navbar-expand-lg bg-light container-fluid">
+
+<a class="navbar-brand" href="#">Foodies</a>
+
+<button class="navbar-toggler" data-bs-toggle="collapse"
+data-bs-target="#menu">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="menu">
+
+<ul class="navbar-nav ms-auto">
+
+<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+
+<li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+
+<li class="nav-item"><a class="nav-link" href="reservation.html">Reservation</a></li>
+
+<li class="nav-item"><a class="nav-link" href="#">About</a></li>
+
+<li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+
+<li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+
+</ul>
+
+</div>
+
+</nav>
+
+<div class="breadcrumb-area">
+Home / Menu
+</div>
+
+<div class="container">
+
+<div class="row">
+
+<!-- Left Accordion -->
+
+<div class="col-md-3">
+
+<div class="accordion">
+
+<div class="accordion-item">
+
+<h2 class="accordion-header">
+
+<button class="accordion-button" data-bs-toggle="collapse"
+data-bs-target="#starter">
+
+Starters
+
+</button>
+
+</h2>
+
+<div id="starter" class="accordion-collapse collapse show">
+
+<div class="accordion-body">
+Soup<br>
+Salad
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Menu Items -->
+
+<div class="col-md-9">
+
+<div class="row">
+
+<div class="col-md-4">
+
+<div class="card">
+
+<img src="images/dish1.jpg">
+
+<div class="card-body">
+
+<h5>Chicken</h5>
+
+<p>$10</p>
+
+<button class="btn btn-primary">Add to Cart</button>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Pagination -->
+
+<nav class="mt-4">
+
+<ul class="pagination">
+
+<li class="page-item"><a class="page-link">1</a></li>
+
+<li class="page-item"><a class="page-link">2</a></li>
+
+</ul>
+
+</nav>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+
+</html>

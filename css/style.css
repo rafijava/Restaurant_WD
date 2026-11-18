@@ -1,0 +1,59 @@
+body{
+font-family: Arial;
+}
+
+.top-header{
+background:#000;
+color:#fff;
+padding:5px;
+font-size:14px;
+}
+
+.navbar{
+box-shadow:0 2px 5px rgba(0,0,0,0.2);
+}
+
+.navbar-nav a:hover{
+color:#ff6600 !important;
+}
+
+.banner img{
+height:500px;
+object-fit:cover;
+}
+
+.card img{
+height:200px;
+object-fit:cover;
+}
+
+.footer{
+background:#111;
+color:#fff;
+padding:40px;
+}
+
+.footer a{
+color:#ddd;
+text-decoration:none;
+}
+
+.footer a:hover{
+color:#ff6600;
+}
+
+/* Dish Zoom */
+.zoom-img{
+width:100%;
+transition:transform .4s;
+}
+
+.zoom-img:hover{
+transform:scale(1.4);
+}
+
+.breadcrumb-area{
+background:#f4f4f4;
+padding:20px;
+margin-bottom:30px;
+}
